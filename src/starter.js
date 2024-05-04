@@ -100,7 +100,7 @@ d3.csv("data/temperature-anomaly-data.csv").then((raw_data) => {
    .append("text")
    .attr("x", (d,i) => xLegendScale(i)+ xLegendScale.bandwidth()/2)
    .attr("y", height - margin.bottom + 65)
-   .text((d) =>d3.format("0.1f")(d));
+   .text((d) =>d3.format("0.1f")(d))
    .attr("class", "legend-labels")
    .style("fill", (d)=> (d >=0.5 ? "#fff" : "#111"));
 
