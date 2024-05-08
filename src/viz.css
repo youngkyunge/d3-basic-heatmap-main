@@ -5,7 +5,7 @@
   height: 440px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
+  margin-top: 80px;
 }
 
 #svg {
@@ -16,11 +16,12 @@
 }
 
 .legend-labels {
-  font-family: arial;
+  font-family:'Franklin Gothic light', 'Arial Narrow', Arial, sans-serif;
   font-size: 12px;
   text-anchor: middle;
 }
 
 .x-axis .domain {
+  
   display: none;
 }

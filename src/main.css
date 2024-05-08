@@ -1,9 +1,11 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Inter, system-ui, Avenir, Helvetica, 'Times New Roman', Times, serif, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   font-synthesis: none;
+  background-color: rgb(9, 2, 37);
+  color:white;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -14,16 +16,18 @@
   max-width: 1020px;
   margin-left: auto;
   margin-right: auto;
-
+  color:white;
   margin-top: 130px;
   line-height: 1.1;
 }
 
 h1 {
-  font-size: 40px;
+  font-family: 'Franklin Gothic light', 'Arial Narrow', Arial, sans-serif;
+  font-size: 45px;
   font-weight: 500;
-  text-align: left;
+  text-align: center;
   margin-bottom: 13px;
+  text-shadow: 1px 1px dimgray;
   padding: 0px 10px;
   letter-spacing: -0.5px;
   /* border-top: 1px solid #333;
@@ -32,8 +36,10 @@ h1 {
 
 h2 {
   margin-top: 8px;
+  text-align: center;
   font-weight: 400;
-  color: #888;
+  color: rgb(178, 187, 199);
+  font-family: 'Franklin Gothic light', 'Arial Narrow', Arial, sans-serif;
   padding: 0px 10px;
   font-size: 20px;
 }

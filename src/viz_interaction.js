@@ -16,6 +16,8 @@ const xScale = d3
   .range([margin.left, width - margin.right])
   .paddingInner(0.1);
 
+const color = d3.scaleSequential(d3.interpolateMagma);
+
 const colorScale = d3
   .scaleSequential()
   // .domain(d3.extent(data, (d) => d.avg).reverse())
@@ -157,3 +159,4 @@ window.addEventListener("resize", () => {
     .attr("transform", `translate(0,${height - margin.bottom})`)
     .call(xAxis);
 });
+
