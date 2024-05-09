@@ -22,9 +22,9 @@ const colorScale = d3
   .scaleSequential()
   // .domain(d3.extent(data, (d) => d.avg).reverse())
   // .domain([0.8, -0.8])
-  // .interpolator(d3.interpolateRdYlBu)
+  // .interpolator(d3.interpolateMagma)
   .domain([-0.8, 0.8])
-  .interpolator(d3.interpolatePuOr);
+  .interpolator(d3.interpolateMagma);
 
 const xLegendScale = d3
   .scaleBand()

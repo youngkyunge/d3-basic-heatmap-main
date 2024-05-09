@@ -20,9 +20,9 @@ const colorScale = d3
   .scaleSequential()
   // .domain(d3.extent(data, (d) => d.avg).reverse())
   // .domain([0.8, -0.8])
-  // .interpolator(d3.interpolateRdYlBu)
+  // .interpolator(d3.interpolateInferno)
   .domain([-0.8, 0.8])
-  .interpolator(d3.interpolatePuOr);
+  .interpolator(d3.interpolateInferno);
 
 const xLegendScale = d3
   .scaleBand()
