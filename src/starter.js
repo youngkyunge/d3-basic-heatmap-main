@@ -27,7 +27,7 @@ const xScale = d3
 const colorScale = d3
 .scaleSequential()
 .domain([-0.8, 0.8])
-.interpolator(d3.interpolateWarm);
+.interpolator(d3.interpolateRdYlGn);
 
 const xLegendScale = d3
 .scaleBand()
